@@ -7,7 +7,6 @@ import {NewCost} from "../NewCost/NewCost.jsx";
 export const Costs = ({data}) => {
     return (
         <Card className={styles.costs}>
-            <NewCost/>
             <CostItem date={data[0].date}
                       desc={data[0].desc}
                       cost={data[0].cost}
